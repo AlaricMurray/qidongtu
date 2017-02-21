@@ -15,6 +15,15 @@
 		054E50691E5BD81100491930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054E50671E5BD81100491930 /* LaunchScreen.storyboard */; };
 		054E50741E5BD81100491930 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E50731E5BD81100491930 /* ___Tests.m */; };
 		054E507F1E5BD81100491930 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E507E1E5BD81100491930 /* ___UITests.m */; };
+		054E50911E5BD83300491930 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E508D1E5BD83300491930 /* OnboardingViewController.m */; };
+		054E50921E5BD83300491930 /* OnboardingContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E50901E5BD83300491930 /* OnboardingContentViewController.m */; };
+		054E50941E5BDC0100491930 /* street.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E50931E5BDC0100491930 /* street.png */; };
+		054E50961E5BDC2500491930 /* headphones.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E50951E5BDC2500491930 /* headphones.png */; };
+		054E50981E5BDC4D00491930 /* space1.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E50971E5BDC4D00491930 /* space1.png */; };
+		054E509A1E5BDC6300491930 /* testtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E50991E5BDC6300491930 /* testtube.png */; };
+		054E509C1E5BDD4600491930 /* milky_way.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 054E509B1E5BDD4600491930 /* milky_way.jpg */; };
+		054E509E1E5BDDA100491930 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 054E509D1E5BDDA100491930 /* tree.png */; };
+		054E50A01E5BDE2C00491930 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 054E509F1E5BDE2C00491930 /* video2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,18 @@
 		054E507A1E5BD81100491930 /* 启动图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "启动图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		054E507E1E5BD81100491930 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		054E50801E5BD81100491930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		054E508C1E5BD83300491930 /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
+		054E508D1E5BD83300491930 /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
+		054E508E1E5BD83300491930 /* OnboardingContentViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingContentViewController_Private.h; sourceTree = "<group>"; };
+		054E508F1E5BD83300491930 /* OnboardingContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingContentViewController.h; sourceTree = "<group>"; };
+		054E50901E5BD83300491930 /* OnboardingContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingContentViewController.m; sourceTree = "<group>"; };
+		054E50931E5BDC0100491930 /* street.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = street.png; sourceTree = "<group>"; };
+		054E50951E5BDC2500491930 /* headphones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headphones.png; sourceTree = "<group>"; };
+		054E50971E5BDC4D00491930 /* space1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space1.png; sourceTree = "<group>"; };
+		054E50991E5BDC6300491930 /* testtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testtube.png; sourceTree = "<group>"; };
+		054E509B1E5BDD4600491930 /* milky_way.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = milky_way.jpg; sourceTree = "<group>"; };
+		054E509D1E5BDDA100491930 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		054E509F1E5BDE2C00491930 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +122,22 @@
 		054E50581E5BD81100491930 /* 启动图 */ = {
 			isa = PBXGroup;
 			children = (
+				054E508C1E5BD83300491930 /* OnboardingViewController.h */,
+				054E508D1E5BD83300491930 /* OnboardingViewController.m */,
+				054E508E1E5BD83300491930 /* OnboardingContentViewController_Private.h */,
+				054E508F1E5BD83300491930 /* OnboardingContentViewController.h */,
+				054E50901E5BD83300491930 /* OnboardingContentViewController.m */,
 				054E505C1E5BD81100491930 /* AppDelegate.h */,
 				054E505D1E5BD81100491930 /* AppDelegate.m */,
 				054E505F1E5BD81100491930 /* ViewController.h */,
 				054E50601E5BD81100491930 /* ViewController.m */,
+				054E50991E5BDC6300491930 /* testtube.png */,
+				054E509B1E5BDD4600491930 /* milky_way.jpg */,
+				054E509F1E5BDE2C00491930 /* video2.mp4 */,
+				054E50971E5BDC4D00491930 /* space1.png */,
+				054E509D1E5BDDA100491930 /* tree.png */,
+				054E50931E5BDC0100491930 /* street.png */,
+				054E50951E5BDC2500491930 /* headphones.png */,
 				054E50621E5BD81100491930 /* Main.storyboard */,
 				054E50651E5BD81100491930 /* Assets.xcassets */,
 				054E50671E5BD81100491930 /* LaunchScreen.storyboard */,
@@ -246,8 +279,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054E50941E5BDC0100491930 /* street.png in Resources */,
+				054E50961E5BDC2500491930 /* headphones.png in Resources */,
+				054E509E1E5BDDA100491930 /* tree.png in Resources */,
+				054E509C1E5BDD4600491930 /* milky_way.jpg in Resources */,
 				054E50691E5BD81100491930 /* LaunchScreen.storyboard in Resources */,
 				054E50661E5BD81100491930 /* Assets.xcassets in Resources */,
+				054E509A1E5BDC6300491930 /* testtube.png in Resources */,
+				054E50981E5BDC4D00491930 /* space1.png in Resources */,
+				054E50A01E5BDE2C00491930 /* video2.mp4 in Resources */,
 				054E50641E5BD81100491930 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +315,9 @@
 			files = (
 				054E50611E5BD81100491930 /* ViewController.m in Sources */,
 				054E505E1E5BD81100491930 /* AppDelegate.m in Sources */,
+				054E50921E5BD83300491930 /* OnboardingContentViewController.m in Sources */,
 				054E505B1E5BD81100491930 /* main.m in Sources */,
+				054E50911E5BD83300491930 /* OnboardingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
